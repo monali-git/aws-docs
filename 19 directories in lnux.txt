@@ -1,0 +1,39 @@
+19 DIRECTORIES OF LINUX 
+1. /ROOT: home directory of root user
+
+2./bin: /bin: local users commands are stored.
+
+3./sbin : root users command are stored : dmidecode, systemctl, shutdown
+
+4./lib32: this is a linked file of /bin for 32 bits computer .
+
+5./lib 64: this is the linked file for 64 bits computer with essentials shared library and kernel modules .
+
+6./usr: contains executable binaries , documentation source code libraries for second level program.
+
+7./srv: it contains server specific and service relatd files .
+
+8./sys: it stores and allows modification of the devices connected to the system. 
+
+9./mnt: temporary mount directory for mounting file system .
+
+10./media: temporary mounting directory is created for removable devices MEDIA/CDROM
+
+11./opt: contains third party application software.
+
+12./proc: a virtual and sudo filesystem which contains informatins about process running in system like PID 
+
+13./run: this dir is the only solution for early runtime dir problem.
+
+14./var: this drectory contains logs ,mails, temp files.
+
+15,/tmp: stores tmp files accessible by users and root untill next boot.
+
+16./etc: contains configuration files for all programs .
+
+17./home:home directory of every new user created .and all the files are stored.
+
+18./dev: contains dev files for all hardware devices .
+
+19./boot: bootable files are stored in this dir, to start the kernel.
+  
